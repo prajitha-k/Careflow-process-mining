@@ -81,7 +81,7 @@ def random_timestamp_within_span():
 def build_case(case_index):
     """Builds one patient's full activity trace and returns list of row dicts."""
     case_id = f"V{1000 + case_index}"
-    patient_id = f"P{str(random.randint(1, 220)).zfill(4)}"
+    patient_id = f"P{str(case_index).zfill(4)}"
     age = random.randint(1, 95)
     gender = random.choice(GENDERS)
     priority = random.choices(PRIORITY_LEVELS, weights=[0.25, 0.45, 0.30])[0]
@@ -161,6 +161,13 @@ def main():
 
     # Sort by Case_ID then Timestamp to mimic a realistic event log
     all_rows.sort(key=lambda r: (r["Case_ID"], r["Timestamp"]))
+
+    # Make every single row unique on Case_ID, Patient_ID and Age
+    # (no two rows share a Case_ID or Patient_ID, even within the same visit)
+    for idx, row in enumerate(all_rows, start=1):
+        row["Case_ID"] = f"V{1000 + idx}"
+        row["Patient_ID"] = f"P{str(idx).zfill(4)}"
+        row["Patient_Age"] = random.randint(1, 95)
 
     with open("er_event_log.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
