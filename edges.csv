@@ -1,0 +1,28 @@
+Transition,Activity_Name,Next_Activity,Patients,Avg_Gap_Min
+Triage Started > Triage Completed,Triage Started,Triage Completed,341,34.0
+Patient Registered > Triage Started,Patient Registered,Triage Started,300,29.4
+Triage Completed > Vitals Recorded,Triage Completed,Vitals Recorded,300,27.4
+Vitals Recorded > Doctor Consultation,Vitals Recorded,Doctor Consultation,300,29.9
+Doctor Consultation > Lab Test Ordered,Doctor Consultation,Lab Test Ordered,139,43.9
+Lab Test Ordered > Lab Result Received,Lab Test Ordered,Lab Result Received,139,26.4
+Treatment Administered > Discharged,Treatment Administered,Discharged,126,46.5
+Radiology Ordered > Radiology Result Received,Radiology Ordered,Radiology Result Received,103,28.6
+Doctor Consultation > Radiology Ordered,Doctor Consultation,Radiology Ordered,59,42.3
+Doctor Consultation > Treatment Administered,Doctor Consultation,Treatment Administered,56,43.7
+Bed Assigned > Discharged,Bed Assigned,Discharged,51,32.8
+Lab Result Received > Radiology Ordered,Lab Result Received,Radiology Ordered,44,62.2
+Lab Result Received > Treatment Administered,Lab Result Received,Treatment Administered,44,63.6
+Radiology Result Received > Triage Started,Radiology Result Received,Triage Started,41,90.0
+Lab Result Received > Discharged,Lab Result Received,Discharged,41,64.2
+Triage Completed > Re-evaluation,Triage Completed,Re-evaluation,41,29.2
+Doctor Consultation > Discharged,Doctor Consultation,Discharged,38,41.4
+Re-evaluation > Treatment Administered,Re-evaluation,Treatment Administered,35,36.2
+Treatment Administered > Bed Assigned,Treatment Administered,Bed Assigned,27,48.1
+Re-evaluation > Discharged,Re-evaluation,Discharged,27,31.5
+Radiology Result Received > Re-evaluation,Radiology Result Received,Re-evaluation,24,53.2
+Radiology Result Received > Treatment Administered,Radiology Result Received,Treatment Administered,18,56.3
+Radiology Result Received > Discharged,Radiology Result Received,Discharged,17,54.4
+Lab Result Received > Bed Assigned,Lab Result Received,Bed Assigned,10,63.2
+Doctor Consultation > Bed Assigned,Doctor Consultation,Bed Assigned,8,51.9
+Re-evaluation > Bed Assigned,Re-evaluation,Bed Assigned,3,36.3
+Radiology Result Received > Bed Assigned,Radiology Result Received,Bed Assigned,3,70.3
