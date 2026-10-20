@@ -1,0 +1,11 @@
+Transition,Activity_Name,Next_Activity,Patients,Avg_Gap_Min
+Radiology Result Received > Triage Started,Radiology Result Received,Triage Started,41,90.0
+Lab Result Received > Discharged,Lab Result Received,Discharged,41,64.2
+Lab Result Received > Treatment Administered,Lab Result Received,Treatment Administered,44,63.6
+Lab Result Received > Bed Assigned,Lab Result Received,Bed Assigned,10,63.2
+Lab Result Received > Radiology Ordered,Lab Result Received,Radiology Ordered,44,62.2
+Radiology Result Received > Treatment Administered,Radiology Result Received,Treatment Administered,18,56.3
+Radiology Result Received > Discharged,Radiology Result Received,Discharged,17,54.4
+Radiology Result Received > Re-evaluation,Radiology Result Received,Re-evaluation,24,53.2
+Treatment Administered > Bed Assigned,Treatment Administered,Bed Assigned,27,48.1
+Treatment Administered > Discharged,Treatment Administered,Discharged,126,46.5
