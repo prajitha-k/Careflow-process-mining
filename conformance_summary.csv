@@ -1,0 +1,9 @@
+Diagnosis_Category,Cases,Compliant_pct,Loop_Back_pct
+Cardiac,37,97.3,2.7
+Gastrointestinal,41,95.1,4.9
+Infection,33,78.8,21.2
+Neurological,44,100.0,0.0
+Orthopedic,29,75.9,24.1
+Other,30,93.3,6.7
+Respiratory,43,93.0,7.0
+Trauma,43,55.8,44.2
