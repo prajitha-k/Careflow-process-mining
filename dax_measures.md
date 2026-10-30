@@ -21,5 +21,7 @@ Every card reacts to the slicers (diagnosis, priority, arrival mode), so the adm
 
 # Dashboard notes
 Process matrix and bottleneck chart now read edges_by_group.csv.
+
 Slicers: diagnosis and priority. Measures: Patients, Avg Wait (min).
+
 Check: with no filter, X-ray result to Triage = 41 patients, about 90 min.
