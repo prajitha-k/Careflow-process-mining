@@ -18,3 +18,8 @@ All measures are created on the `cases` table (one row per patient visit).
 4. Ideal Path % - share of visits that follow the ideal path with no loop-back
 
 Every card reacts to the slicers (diagnosis, priority, arrival mode), so the administrator can check any patient group.
+
+# Dashboard notes
+Process matrix and bottleneck chart now read edges_by_group.csv.
+Slicers: diagnosis and priority. Measures: Patients, Avg Wait (min).
+Check: with no filter, X-ray result to Triage = 41 patients, about 90 min.
