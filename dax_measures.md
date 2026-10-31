@@ -21,11 +21,16 @@ Every card reacts to the slicers (diagnosis, priority, arrival mode), so the adm
 
 # Dashboard notes
 1.Process matrix and bottleneck chart now read edges_by_group.csv.
+
 2.Slicers: diagnosis and priority. Measures: Patients, Avg Wait (min).
+
 3.Check: with no filter, X-ray result to Triage = 41 patients, about 90 min.
 
 # Conformance page
 1.Ideal path: Registered, Triage, Vitals, Doctor, Discharged, in order, with Triage done once.
+
 2.Measures: Compliant Visits, Deviating Visits, Path Status (calculated column).
+
 3.Visuals: compliant versus deviating donut, ideal path % by diagnosis, top 5 paths table.
+
 4.Check: 259 compliant and 41 deviating of 300 visits; Trauma has the lowest compliance (about 56%).
