@@ -34,3 +34,7 @@ Every card reacts to the slicers (diagnosis, priority, arrival mode), so the adm
 3.Visuals: compliant versus deviating donut, ideal path % by diagnosis, top 5 paths table.
 
 4.Check: 259 compliant and 41 deviating of 300 visits; Trauma has the lowest compliance (about 56%).
+
+## Dashboard
+Power BI dashboard with KPI cards, a patient-flow matrix, a bottleneck chart and a conformance page.
+DAX measures are listed in dax_measures.md.
