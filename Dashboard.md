@@ -48,9 +48,15 @@ DAX measures are listed in dax_measures.md.
 
 ## Dashboard Development Process
 *Organized KPI cards to highlight the most important metrics.
+
 *Arranged slicers to provide interactive filtering options.
+
 *Positioned charts and visualizations in a meaningful sequence.
+
 *Applied consistent formatting, colors, and alignment.
+
 *Created a well-structured dashboard to support easy data exploration and analysis.
-It helps identify process bottlenecks, delays, and inefficiencies to support better hospital workflow management.  
+
+*It helps identify process bottlenecks, delays, and inefficiencies to support better hospital workflow management.  
+
 **Tools Used:** Power BI, DAX, and CSV Dataset.
