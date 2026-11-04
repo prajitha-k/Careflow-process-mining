@@ -47,13 +47,14 @@ DAX measures are listed in dax_measures.md.
 *Interactive filters allow users to explore data by diagnosis category, priority level, and arrival mode.  
 
 ## Dashboard Development Process
-*Organized KPI cards to highlight the most important metrics.
+-Organized KPI cards to highlight the most important metrics.
+-Arranged slicers to provide interactive filtering options.
+-Positioned charts and visualizations in a meaningful sequence.
+-Applied consistent formatting, colors, and alignment.
+-Created a well-structured dashboard to support easy data exploration and analysis.
+-It helps identify process bottlenecks, delays, and inefficiencies to support better hospital workflow management.  
 
-*Arranged slicers to provide interactive filtering options.
-
-*Positioned charts and visualizations in a meaningful sequence.
-
-*Applied consistent formatting, colors, and alignment.
+**Tools Used:** Power BI, DAX, and CSV Dataset.
 
 ## Project Report
 - Generated a simulated Emergency Room (ER) event log containing 300 patient visits and 2,635 events using Python.
@@ -66,10 +67,3 @@ DAX measures are listed in dax_measures.md.
 - Developed an interactive Power BI dashboard featuring KPI Overview, Process Map, and Conformance Analysis pages.
 - Implemented KPI cards for Total Visits, Average Time in ER, Loop-back %, and Ideal Path %, along with Diagnosis Category and Priority Level slicers.
 - Successfully completed the project by integrating Python, MySQL, and Power BI to identify patient flow inefficiencies and present recommendations for improving ER workflow efficiency.
-
-
-*Created a well-structured dashboard to support easy data exploration and analysis.
-
-*It helps identify process bottlenecks, delays, and inefficiencies to support better hospital workflow management.  
-
-**Tools Used:** Power BI, DAX, and CSV Dataset.
