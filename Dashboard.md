@@ -55,6 +55,19 @@ DAX measures are listed in dax_measures.md.
 
 *Applied consistent formatting, colors, and alignment.
 
+## Project Report
+- Generated a simulated Emergency Room (ER) event log containing 300 patient visits and 2,635 events using Python.
+- Completed data validation and cleaning, successfully passing all eight validation checks.
+- Performed process discovery, identifying 27 distinct process moves and 29 patient journey variants.
+- Conducted bottleneck analysis and identified the X-ray Result → Triage transition as the slowest movement, with a 90-minute average gap.
+- Completed conformance checking, revealing that 86.3% of visits followed the ideal pathway, while 13.7% deviated.
+- Identified that 39.8% of X-ray patients experienced a loop-back to Triage.
+- Integrated the cleaned dataset into MySQL and verified the analysis using SQL queries.
+- Developed an interactive Power BI dashboard featuring KPI Overview, Process Map, and Conformance Analysis pages.
+- Implemented KPI cards for Total Visits, Average Time in ER, Loop-back %, and Ideal Path %, along with Diagnosis Category and Priority Level slicers.
+- Successfully completed the project by integrating Python, MySQL, and Power BI to identify patient flow inefficiencies and present recommendations for improving ER workflow efficiency.
+
+
 *Created a well-structured dashboard to support easy data exploration and analysis.
 
 *It helps identify process bottlenecks, delays, and inefficiencies to support better hospital workflow management.  
