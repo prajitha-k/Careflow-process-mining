@@ -41,18 +41,26 @@ DAX measures are listed in dax_measures.md.
 
 ## CareFlow – ER Pathway Dashboard
 
-*CareFlow is a Power BI dashboard designed to analyze patient journeys and workflows in the Emergency Room (ER).  
-*It visualizes actual patient flow, activity transitions, waiting times, and patient movement between hospital departments.  
-*The dashboard highlights key insights such as average ER time, X-ray loop-backs, and adherence to the ideal patient pathway.  
-*Interactive filters allow users to explore data by diagnosis category, priority level, and arrival mode.  
+1.CareFlow is a Power BI dashboard designed to analyze patient journeys and workflows in the Emergency Room (ER).  
+
+2.It visualizes actual patient flow, activity transitions, waiting times, and patient movement between hospital departments.  
+
+3.The dashboard highlights key insights such as average ER time, X-ray loop-backs, and adherence to the ideal patient pathway.  
+
+4.Interactive filters allow users to explore data by diagnosis category, priority level, and arrival mode.  
 
 ## Dashboard Development Process
--Organized KPI cards to highlight the most important metrics.
--Arranged slicers to provide interactive filtering options.
--Positioned charts and visualizations in a meaningful sequence.
--Applied consistent formatting, colors, and alignment.
--Created a well-structured dashboard to support easy data exploration and analysis.
--It helps identify process bottlenecks, delays, and inefficiencies to support better hospital workflow management.  
+1.Organized KPI cards to highlight the most important metrics.
+
+2.Arranged slicers to provide interactive filtering options.
+
+3.Positioned charts and visualizations in a meaningful sequence.
+
+4.Applied consistent formatting, colors, and alignment.
+
+5.Created a well-structured dashboard to support easy data exploration and analysis.
+
+6.It helps identify process bottlenecks, delays, and inefficiencies to support better hospital workflow management.  
 
 **Tools Used:** Power BI, DAX, and CSV Dataset.
 
