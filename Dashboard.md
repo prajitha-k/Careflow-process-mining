@@ -64,6 +64,16 @@ DAX measures are listed in dax_measures.md.
 
 **Tools Used:** Power BI, DAX, and CSV Dataset.
 
+## Dashboard Modifications
+
+- Refined the existing Power BI dashboard layout to improve visual presentation and readability.
+- Reorganized KPI cards, slicers, and charts into a proper sequence.
+- Improved the alignment, spacing, and positioning of dashboard elements.
+- Updated the visual formatting to maintain consistency across all dashboard pages.
+- Enhanced the interactive filtering experience using Diagnosis Category and Priority Level slicers.
+- Reviewed the Process Map and Conformance Analysis pages to ensure clear presentation of patient flow, bottlenecks, and performance metrics.
+- Improved the overall dashboard design to make it more professional, interactive, and user-friendly.
+
 ## Project Report
 - Generated a simulated Emergency Room (ER) event log containing 300 patient visits and 2,635 events using Python.
 - Completed data validation and cleaning, successfully passing all eight validation checks.
