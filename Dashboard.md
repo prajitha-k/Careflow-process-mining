@@ -84,4 +84,15 @@ DAX measures are listed in dax_measures.md.
 - Integrated the cleaned dataset into MySQL and verified the analysis using SQL queries.
 - Developed an interactive Power BI dashboard featuring KPI Overview, Process Map, and Conformance Analysis pages.
 - Implemented KPI cards for Total Visits, Average Time in ER, Loop-back %, and Ideal Path %, along with Diagnosis Category and Priority Level slicers.
+
+## Project Report Modifications
+- Reviewed and updated the CareFlow project report to reflect the completed project activities.
+- Organized the project documentation into clear development stages, from data generation to dashboard development.
+- Updated the technical workflow covering Python, Pandas, MySQL, SQL, and Power BI.
+- Included key project findings, analytical results, and process bottlenecks.
+- Added details of the three Power BI dashboard pages: KPI Overview, Process Map, and Conformance Analysis.
+- Updated dashboard metrics, interactive slicers, and visualization details.
+- Refined the findings, recommendations, limitations, and conclusion sections.
+- Improved the overall report structure, formatting, and presentation to ensure clear and professional documentation.
+
 - Successfully completed the project by integrating Python, MySQL, and Power BI to identify patient flow inefficiencies and present recommendations for improving ER workflow efficiency.
