@@ -39,7 +39,6 @@ Process_map_powerbi.png shows the patient flow through the ER, with the main tra
    - an Ideal Path donut (on the path against deviating)
    - Loop-back % by diagnosis
    - a chart of where patients wait longest
-   - a table of the five most common patient paths
 4. **Slicers** for diagnosis, arrival mode and priority.
 5. **Polish.** A single colour theme, aligned layout, helper tables hidden, and a PDF and screenshots exported.
 6. **Documentation.** Project documentation, the project report and the presentation.
